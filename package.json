@@ -1,0 +1,25 @@
+{
+  "name": "projetopiapi",
+  "version": "1.0.0",
+  "description": "Api ",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PortalEducacao",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase": "^9.8.2",
+    "firebase-admin": "^10.0.2",
+    "formidable": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "ip": "^1.1.5",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.4",
+    "twilio": "^3.77.1"
+  }
+}
